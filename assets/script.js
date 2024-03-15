@@ -41,7 +41,7 @@ function displayDots () {
 		dot.classList.add("dot");
 		dots.appendChild(dot);
 
-		if (i === index) {
+		if (i == index) {
 			dot.classList.add("dot_selected")
 		}
 	}
